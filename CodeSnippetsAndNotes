@@ -1,4 +1,4 @@
 <------RESOLE ERROR: Import "django.urls" could not be resolved from sourcePylance...>>>
 This error can show up when you are trying to work on your Django App in Visual Studio or another editor.
-1. Make sure ypu have Python installed on your system, you have Django installed in the right directory
+1. Make sure you have Python installed on your system, you have Django installed in the right directory and you have "python interpreter" in your editor (e.g. VS Code)
 2. Make sure you open the folder that holds your Django app and virtual environment (if you have installed your venv in a folder) and not the one that holds only your Django app
