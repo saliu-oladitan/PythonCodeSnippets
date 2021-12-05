@@ -31,3 +31,8 @@ Cross Site Request Forgery protection
 The CSRF middleware and template tag provides easy-to-use protection against Cross Site Request Forgeries. This type of attack occurs when a malicious website contains a link, a form button or some JavaScript that is intended to perform some action on your website, using the credentials of a logged-in user who visits the malicious site in their browser. A related type of attack, ‘login CSRF’, where an attacking site tricks a user’s browser into logging into a site with someone else’s credentials, is also covered.
 
 The first defense against CSRF attacks is to ensure that GET requests (and other ‘safe’ methods, as defined by RFC 7231#section-4.2.1) are side effect free. Requests via ‘unsafe’ methods, such as POST, PUT, and DELETE, can then be protected by following the steps on: https://docs.djangoproject.com/en/3.2/ref/csrf/
+
+
+<--5-#OpenCv Haarcascades---...>>>
+
+Download the OpenCv Haarcascades here: https://github.com/opencv/opencv/tree/master/data/haarcascades
