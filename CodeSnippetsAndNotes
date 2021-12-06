@@ -36,3 +36,31 @@ The first defense against CSRF attacks is to ensure that GET requests (and other
 <--5-#OpenCv Haarcascades---...>>>
 
 Download the OpenCv Haarcascades here: https://github.com/opencv/opencv/tree/master/data/haarcascades
+
+
+
+<--5-#WORKING WITH DJANGO---...>>>
+
+
+#Error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+SOlution: Try to run the server at a different port instead of the default (8000):
+E.g.
+python manage.py runserver 127.0.0.1:7000
+
+This is because an App might have been hosted in that port like my own case. Also, it is good you have admin right
+
+#Exception Type: TemplateDoesNotExist
+Exception Value: MainApp/Index.html
+
+Solution: Check your view rendering
+
+
+# Invalid block tag on line 7: 'static'. Did you forget to register or load this tag?
+
+line7: <link rel="stylesheet" href="{% static 'MainApp/css/bootstrap.min.css' %}">
+
+Solution:
+<html lang="en">
+    {% load static %}    >>>Include this
+<head>
