@@ -1,4 +1,14 @@
-<--1----RESOLE ERROR: Import "django.urls" could not be resolved from sourcePylance...>>>
+<--9---Check dlib version--->>>
+import dlib
+print(dlib.__version__)
+
+
+<--8---Error installing dlib library--->>>
+import dlib
+print(dlib.__version__)
+
+
+<--7----RESOLE ERROR: Import "django.urls" could not be resolved from sourcePylance...>>>
 This error can show up when you are trying to work on your Django App in Visual Studio or another editor.
 1. Make sure you have Python installed on your system, you have Django installed in the right directory and you have "python interpreter" in your editor (e.g. VS Code)
 2. Make sure you open the folder that holds your Django app and virtual environment (if you have installed your venv in a folder) and not the one that holds only your Django app
@@ -6,7 +16,7 @@ This error can show up when you are trying to work on your Django App in Visual 
 
 
 
-<--2-#Python Pillow---...>>>
+<--6-#Python Pillow---...>>>
 
 It's a PL (Python Library)
 The Python Imaging Library adds image processing capabilities to your Python interpreter.
@@ -16,9 +26,7 @@ This library provides extensive file format support, an efficient internal repre
 The core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool.
 
 
-
-
-<--3-#Mega.io---...>>>
+<--5-#Mega.io---...>>>
 #Mega.io
 Secure Cloud Storage and Communication
 Privacy by Design
@@ -33,13 +41,13 @@ The CSRF middleware and template tag provides easy-to-use protection against Cro
 The first defense against CSRF attacks is to ensure that GET requests (and other ‘safe’ methods, as defined by RFC 7231#section-4.2.1) are side effect free. Requests via ‘unsafe’ methods, such as POST, PUT, and DELETE, can then be protected by following the steps on: https://docs.djangoproject.com/en/3.2/ref/csrf/
 
 
-<--5-#OpenCv Haarcascades---...>>>
+<--3-#OpenCv Haarcascades---...>>>
 
 Download the OpenCv Haarcascades here: https://github.com/opencv/opencv/tree/master/data/haarcascades
 
 
 
-<--5-#WORKING WITH DJANGO---...>>>
+<--2-#WORKING WITH DJANGO---...>>>
 
 
 #Error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
@@ -66,8 +74,7 @@ Solution:
 <head>
 
 
-<--6-#
-COMPUTER VISION : FACE RECOGNITION---...>>>
+<--1-#COMPUTER VISION : FACE RECOGNITION---...>>>
 
 SUMMARY
 
