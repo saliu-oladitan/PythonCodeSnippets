@@ -4,8 +4,8 @@ print(dlib.__version__)
 
 
 <--8---Error installing dlib library--->>>
-import dlib
-print(dlib.__version__)
+Use a lower version of Python e.g. 3.8/3.9
+And install a lower version of Dlib e.g. 19.18
 
 
 <--7----RESOLE ERROR: Import "django.urls" could not be resolved from sourcePylance...>>>
