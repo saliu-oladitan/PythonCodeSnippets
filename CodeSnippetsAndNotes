@@ -64,3 +64,19 @@ Solution:
 <html lang="en">
     {% load static %}    >>>Include this
 <head>
+
+
+<--6-#
+COMPUTER VISION : FACE RECOGNITION---...>>>
+
+SUMMARY
+
+***Face area detected in image - Using HOG (Histogram of Oriented Gradients — or just HOG for short.)
+
+***Face landmarks detected - algorithm called face landmark estimation. come up with 68 specific points (called landmarks) that exist on every face — the top of the chin, the outside edge of each eye, the inner edge of each eyebrow, etc. Then we will train a machine learning algorithm to be able to find these 68 specific points on any face
+
+***Getting the perfect centred result we want (the face will be transformed to be as close as possible to the perfectly centred format) ------ Using the dilib lib we will use basic image transformations like rotation and scale that preserve parallel lines (called affine transformations)
+
+***Encoding the face ------- The neural network auto train itself to find the best measurements. We only supply the NN with an image and it will generate 128 measurement for each image.
+
+***Recognising the face  ----- Using the 128 meas, we can define a person's face and differentiate it from other people's faces. You can use any machine learning method to do that. (e.g.  We’ll use a simple linear SVM classifier, but lots of classification algorithms could work.)
